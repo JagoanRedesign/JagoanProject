@@ -1,0 +1,172 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Spinner Bahasa Indonesia | SatyaPratisna.ID</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="https://tools.satyapratisna.id/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+
+        }
+        .fa-instagram {
+          background: #125688;
+          color: white;
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+        }
+        .fa-youtube {
+          background: #bb0000;
+          color: white;
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+        }
+    </style>
+
+	<link rel="stylesheet" href="https://tools.satyapratisna.id/plugins/datatables/dataTables.bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://tools.satyapratisna.id/dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="https://tools.satyapratisna.id/dist/css/skins/_all-skins.min.css">
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://tools.satyapratisna.id/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    
+
+	</head><body class="hold-transition skin-red sidebar-mini">
+		<div class="wrapper">
+            <header class="main-header">
+            <a href="/" class="logo">
+      <span class="logo-mini"><b>S</b>P</span>
+      <span class="logo-lg">Satya<b>Pratisna</b></span>
+    </a>
+    <nav class="navbar navbar-static-top">
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+
+    </nav>
+  </header>
+  <!--/ header /-->
+
+  <aside class="main-sidebar">
+    <section class="sidebar">
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+        <li >
+          <a href="index.php">
+            <i class="fa fa-dashboard"></i> <span>Home</span>
+          </a>
+        </li>
+					<li class="treeview active">
+			  <a href="#">
+				<i class="fa fa-user-md"></i>
+				<span>Tools</span>
+				<i class="fa fa-angle-left pull-right"></i>
+			  </a>
+			  <ul class="treeview-menu">
+                <li><a href="#" onclick="UnderDevelopment()"><i class="fa fa-circle-o text-green"></i> Article Generator</a></li>
+                <li ><a href="?tools=asin"><i class="fa fa-circle-o text-yellow"></i> Asin Scraper</a></li>
+				<li ><a href="?tools=keyword"><i class="fa fa-circle-o text-aqua"></i> Keyword Generator</a></li>
+                <li class="active treeview"><a href="?tools=spinner"><i class="fa fa-circle-o text-red"></i> Spinner Indonesia</a></li>
+			  </ul>
+			</li>
+		 <li >
+          <a href="?pages=contact">
+            <i class="fa fa-commenting-o"></i> <span>Contact</span>
+          </a>
+        </li>
+        <li >
+          <a href="#" onclick="UnderDevelopment()">
+            <i class="fa fa-commenting-o"></i> <span>Request Tools</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </aside>        <div class="content-wrapper" style="min-height: 550px;">
+				<section class="content">
+                                <div class="alert alert-info">
+                  <font color="red"><strong>Information!</strong></font> Saya akan merilis sebuah tools baru dan fitur untuk request tools. Tunggu Tanggal Mainnya!!
+                </div>					<div class="box">
+
+
+						<div class="box-body">
+						<form action="" method="post">
+                        <div class="form-group">
+                            <label for="text">Text Yang Ingin Di Spin* :</label>
+                            <textarea class="form-control" name="text" id="text" cols="45" rows="5" required></textarea>
+                        </div>
+                        <label for="usr">Kata Yang Tidak Ingin Di Spin (pisahkan dengan koma):</label>
+                          <input type="text" class="form-control" id="protect" name="protect" value="">
+                        <label for="radio">Result Yang Di Inginkan:</label>
+                        <label class="radio-inline"><input type="radio" name="radioresult" value="syntax">Syntax</label>
+                        <label class="radio-inline"><input type="radio" name="radioresult" value="article" checked="checked">Article</label>
+                        <input type="hidden" name="send_data" id="send_data" value="yes" />
+                        <center><button type="submit" class="btn btn-default">Spin</button></center>
+                        </form>
+                        <div class="form-group">
+                            <label for="text">Hasil :</label>
+                            <textarea class="form-control" name="Result" id="Result" cols="45" rows="5"></textarea>
+                        </div>
+						</div>
+					</div>
+				</section>
+		</div>
+
+
+<footer class="main-footer">
+	<div class="pull-right hidden-xs">Jagoan Redesign</div>
+	<strong>Copyright &copy; 2016 - 2021 <a href="http://izzlab.com">Izz Lab</a>.</strong> Presented With <i class="fa fa-heart" aria-hidden="true" style="color:red"></i> From Bogor.
+</footer>
+</div>
+</body>
+<script src="https://tools.satyapratisna.id/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+	<script src="https://tools.satyapratisna.id/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://tools.satyapratisna.id/plugins/datatables/jquery.dataTables.min.js"></script>
+	<script src="https://tools.satyapratisna.id/plugins/datatables/dataTables.bootstrap.min.js"></script>
+	<script src="https://tools.satyapratisna.id/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+	<script src="https://tools.satyapratisna.id/plugins/fastclick/fastclick.js"></script>
+	<script src="https://tools.satyapratisna.id/dist/js/app.min.js"></script>
+	<script src="https://tools.satyapratisna.id/dist/js/demo.js"></script>
+    <script src="https://tools.satyapratisna.id/assets/js/generated.js"></script>
+    <script src="https://tools.satyapratisna.id/assets/js/shopee.js"></script> 
+    <script>
+    function UnderDevelopment() {
+      alert("Sedang Dalam Pembuatan, Akan Siap Segera!");
+    }
+    </script>
+	<script>
+	  $(function () {
+		$('#tabledata').DataTable();
+		$('#example2').DataTable({
+		  "paging": true,
+		  "lengthChange": false,
+		  "searching": false,
+		  "ordering": true,
+		  "info": true,
+		  "autoWidth": false
+		});
+	  });
+	</script>
+    <
+
+
+</html>
